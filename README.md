@@ -30,14 +30,10 @@ pytest
 ```
 3. Generate HTML Report:
 ```
-pytest --html=report.html
+pytest --html=Reports/test_report.html
 ```
-4. Run Tests by Marker (e.g., only "login" tests):
-```
-pytest -m login
-```
-5. Headless Browser Execution:
-   You can set up tests to run in headless mode by configuring the pytest.ini file or directly in your test script.
+4. Headless Browser Execution:
+   You can set up tests to run in headless mode directly in your test script.
 
 ## Project Structure
 ```
