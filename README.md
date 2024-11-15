@@ -1,27 +1,27 @@
 # OrangehrmPOM
 Website Link: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
-#Test Objective
+# Test Objective
 Launching OrangeHRM demo website and testing start automation, login functionality, click_pim functionality, click_add functionality, add_employee functionality and shutdown using pytest framework with a page object model POM Pattern. 
 
-#Table of Contents
+# Table of Contents
 Features
 Tech Stack
 Running Tests
 Project Structure
 
-#Features
+# Features
 Automated Login Tests: Verifies user login functionality, including positive and negative scenarios.
 Add Employee Tests: Ensures proper addition on new employee.
 
-#Tech Stack
+# Tech Stack
 Programming Language: Python
 Test Framework: pytest
 Automation Tool: Selenium WebDriver
 Reporting: pytest-html
 Browser Compatibility: Chrome, Firefox, and optionally, Edge
 
-#Running Tests
+# Running Tests
 To execute tests, use the following commands:
 
 1. Run All Tests:
