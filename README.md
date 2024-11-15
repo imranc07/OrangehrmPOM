@@ -1,42 +1,46 @@
 # OrangehrmPOM
 Website Link: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
-# Test Objective
+## Test Objective
 Launching OrangeHRM demo website and testing start automation, login functionality, click_pim functionality, click_add functionality, add_employee functionality and shutdown using pytest framework with a page object model POM Pattern. 
 
-# Table of Contents
-Features
-Tech Stack
-Running Tests
-Project Structure
+## Table of Contents
++ [Features]()
++ [Tech Stack]()
++ [Running Tests]()
++ [Project Structure]()
 
-# Features
+## Features
 Automated Login Tests: Verifies user login functionality, including positive and negative scenarios.
 Add Employee Tests: Ensures proper addition on new employee.
 
-# Tech Stack
+## Tech Stack
 Programming Language: Python
 Test Framework: pytest
 Automation Tool: Selenium WebDriver
 Reporting: pytest-html
 Browser Compatibility: Chrome, Firefox, and optionally, Edge
 
-# Running Tests
+## Running Tests
 To execute tests, use the following commands:
 
 1. Run All Tests:
-   pytest
-
-2. Generate HTML Report:
-   pytest --html=report.html
-
-3. Run Tests by Marker (e.g., only "login" tests):
-   pytest -m login
-
-4. Headless Browser Execution:
+```
+pytest
+```
+3. Generate HTML Report:
+```
+pytest --html=report.html
+```
+4. Run Tests by Marker (e.g., only "login" tests):
+```
+pytest -m login
+```
+5. Headless Browser Execution:
    You can set up tests to run in headless mode by configuring the pytest.ini file or directly in your test script.
 
-Project Structure
+## Project Structure
+```
 OrangeHRM/
 ├── tests/                     # All test cases
 │   ├── test_start.py          # Start test
@@ -48,3 +52,4 @@ OrangeHRM/
 ├── pages/                     # Page Object Models for each page
 │   ├── OrangeHRM.py
 └── README.md                  # Project documentation
+```
