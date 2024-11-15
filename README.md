@@ -28,11 +28,11 @@ To execute tests, use the following commands:
 ```
 pytest
 ```
-3. Generate HTML Report:
+2. Generate HTML Report:
 ```
 pytest --html=Reports/test_report.html
 ```
-4. Headless Browser Execution:
+3. Headless Browser Execution:
    You can set up tests to run in headless mode directly in your test script.
 
 ## Project Structure
