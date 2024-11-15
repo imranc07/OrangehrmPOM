@@ -15,11 +15,11 @@ Automated Login Tests: Verifies user login functionality, including positive and
 Add Employee Tests: Ensures proper addition on new employee.
 
 ## Tech Stack
-Programming Language: Python
-Test Framework: pytest
-Automation Tool: Selenium WebDriver
-Reporting: pytest-html
-Browser Compatibility: Chrome, Firefox, and optionally, Edge
+* Programming Language: Python
+* Test Framework: pytest
+* Automation Tool: Selenium WebDriver
+* Reporting: pytest-html
+* Browser Compatibility: Chrome, Firefox, and optionally, Edge
 
 ## Running Tests
 To execute tests, use the following commands:
